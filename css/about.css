@@ -16,9 +16,26 @@
 .about p{
     color:  white;
     text-align: center;
-    font-size: clamp( 1.5vw, 1.75vw, 1.75vw);
+    font-size: 1.5vw;
     padding-right: 5vw;
     padding-left: 5vw;
+}
+
+@media screen and (max-width: 815px) {
+        .about p{
+            font-size: 2.5vw;
+        }
+
+        .abt{
+            font-size: 7vw;
+        }
+}
+
+@media screen and (max-width: 450px){
+    .about p{
+        font-size: 3vw;
+    }
+    
 }
 
 
